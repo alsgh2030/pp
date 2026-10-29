@@ -1,0 +1,656 @@
+[
+  {
+    "opcode": 0,
+    "name": "AICmd_IfRandomLessThan",
+    "reads": 2,
+    "source_line": 467
+  },
+  {
+    "opcode": 1,
+    "name": "AICmd_IfRandomGreaterThan",
+    "reads": 2,
+    "source_line": 478
+  },
+  {
+    "opcode": 2,
+    "name": "AICmd_IfRandomEqualTo",
+    "reads": 2,
+    "source_line": 489
+  },
+  {
+    "opcode": 3,
+    "name": "AICmd_IfRandomNotEqualTo",
+    "reads": 2,
+    "source_line": 500
+  },
+  {
+    "opcode": 4,
+    "name": "AICmd_AddToMoveScore",
+    "reads": 1,
+    "source_line": 511
+  },
+  {
+    "opcode": 5,
+    "name": "AICmd_IfHPPercentLessThan",
+    "reads": 3,
+    "source_line": 522
+  },
+  {
+    "opcode": 6,
+    "name": "AICmd_IfHPPercentGreaterThan",
+    "reads": 3,
+    "source_line": 536
+  },
+  {
+    "opcode": 7,
+    "name": "AICmd_IfHPPercentEqualTo",
+    "reads": 3,
+    "source_line": 550
+  },
+  {
+    "opcode": 8,
+    "name": "AICmd_IfHPPercentNotEqualTo",
+    "reads": 3,
+    "source_line": 564
+  },
+  {
+    "opcode": 9,
+    "name": "AICmd_IfStatus",
+    "reads": 3,
+    "source_line": 578
+  },
+  {
+    "opcode": 10,
+    "name": "AICmd_IfNotStatus",
+    "reads": 3,
+    "source_line": 591
+  },
+  {
+    "opcode": 11,
+    "name": "AICmd_IfStatus2",
+    "reads": 3,
+    "source_line": 604
+  },
+  {
+    "opcode": 12,
+    "name": "AICmd_IfNotStatus2",
+    "reads": 3,
+    "source_line": 617
+  },
+  {
+    "opcode": 13,
+    "name": "AICmd_IfMoveEffect",
+    "reads": 3,
+    "source_line": 630
+  },
+  {
+    "opcode": 14,
+    "name": "AICmd_IfNotMoveEffect",
+    "reads": 3,
+    "source_line": 643
+  },
+  {
+    "opcode": 15,
+    "name": "AICmd_IfSideCondition",
+    "reads": 3,
+    "source_line": 656
+  },
+  {
+    "opcode": 16,
+    "name": "AICmd_IfNotSideCondition",
+    "reads": 3,
+    "source_line": 670
+  },
+  {
+    "opcode": 17,
+    "name": "AICmd_IfLoadedLessThan",
+    "reads": 2,
+    "source_line": 684
+  },
+  {
+    "opcode": 18,
+    "name": "AICmd_IfLoadedGreaterThan",
+    "reads": 2,
+    "source_line": 695
+  },
+  {
+    "opcode": 19,
+    "name": "AICmd_IfLoadedEqualTo",
+    "reads": 2,
+    "source_line": 706
+  },
+  {
+    "opcode": 20,
+    "name": "AICmd_IfLoadedNotEqualTo",
+    "reads": 2,
+    "source_line": 717
+  },
+  {
+    "opcode": 21,
+    "name": "AICmd_IfLoadedMask",
+    "reads": 2,
+    "source_line": 728
+  },
+  {
+    "opcode": 22,
+    "name": "AICmd_IfLoadedNotMask",
+    "reads": 2,
+    "source_line": 739
+  },
+  {
+    "opcode": 23,
+    "name": "AICmd_IfMoveEqualTo",
+    "reads": 2,
+    "source_line": 750
+  },
+  {
+    "opcode": 24,
+    "name": "AICmd_IfMoveNotEqualTo",
+    "reads": 2,
+    "source_line": 761
+  },
+  {
+    "opcode": 25,
+    "name": "AICmd_IfLoadedInTable",
+    "reads": 2,
+    "source_line": 772
+  },
+  {
+    "opcode": 26,
+    "name": "AICmd_IfLoadedNotInTable",
+    "reads": 2,
+    "source_line": 788
+  },
+  {
+    "opcode": 27,
+    "name": "AICmd_IfAttackerHasDamagingMoves",
+    "reads": 1,
+    "source_line": 805
+  },
+  {
+    "opcode": 28,
+    "name": "AICmd_IfAttackerHasNoDamagingMoves",
+    "reads": 1,
+    "source_line": 822
+  },
+  {
+    "opcode": 29,
+    "name": "AICmd_LoadTurnCount",
+    "reads": 0,
+    "source_line": 839
+  },
+  {
+    "opcode": 30,
+    "name": "AICmd_LoadTypeFrom",
+    "reads": 1,
+    "source_line": 844
+  },
+  {
+    "opcode": 31,
+    "name": "AICmd_LoadMovePower",
+    "reads": 0,
+    "source_line": 911
+  },
+  {
+    "opcode": 32,
+    "name": "AICmd_FlagMoveDamageScore",
+    "reads": 1,
+    "source_line": 916
+  },
+  {
+    "opcode": 33,
+    "name": "AICmd_LoadBattlerPreviousMove",
+    "reads": 1,
+    "source_line": 974
+  },
+  {
+    "opcode": 34,
+    "name": "AICmd_IfTempEqualTo",
+    "reads": 2,
+    "source_line": 983
+  },
+  {
+    "opcode": 35,
+    "name": "AICmd_IfTempNotEqualTo",
+    "reads": 2,
+    "source_line": 994
+  },
+  {
+    "opcode": 36,
+    "name": "AICmd_IfSpeedCompareEqualTo",
+    "reads": 2,
+    "source_line": 1005
+  },
+  {
+    "opcode": 37,
+    "name": "AICmd_IfSpeedCompareNotEqualTo",
+    "reads": 2,
+    "source_line": 1016
+  },
+  {
+    "opcode": 38,
+    "name": "AICmd_CountAlivePartyBattlers",
+    "reads": 1,
+    "source_line": 1027
+  },
+  {
+    "opcode": 39,
+    "name": "AICmd_LoadCurrentMove",
+    "reads": 0,
+    "source_line": 1058
+  },
+  {
+    "opcode": 40,
+    "name": "AICmd_LoadCurrentMoveEffect",
+    "reads": 0,
+    "source_line": 1063
+  },
+  {
+    "opcode": 41,
+    "name": "AICmd_LoadBattlerAbility",
+    "reads": 1,
+    "source_line": 1068
+  },
+  {
+    "opcode": 42,
+    "name": "AICmd_CalcMaxEffectiveness",
+    "reads": 0,
+    "source_line": 1165
+  },
+  {
+    "opcode": 43,
+    "name": "AICmd_IfMoveEffectivenessEquals",
+    "reads": 2,
+    "source_line": 1207
+  },
+  {
+    "opcode": 44,
+    "name": "AICmd_IfPartyMemberStatus",
+    "reads": 3,
+    "source_line": 1243
+  },
+  {
+    "opcode": 45,
+    "name": "AICmd_IfPartyMemberNotStatus",
+    "reads": 3,
+    "source_line": 1275
+  },
+  {
+    "opcode": 46,
+    "name": "AICmd_LoadCurrentWeather",
+    "reads": 0,
+    "source_line": 1307
+  },
+  {
+    "opcode": 47,
+    "name": "AICmd_IfCurrentMoveEffectEqualTo",
+    "reads": 2,
+    "source_line": 1333
+  },
+  {
+    "opcode": 48,
+    "name": "AICmd_IfCurrentMoveEffectNotEqualTo",
+    "reads": 2,
+    "source_line": 1344
+  },
+  {
+    "opcode": 49,
+    "name": "AICmd_IfStatStageLessThan",
+    "reads": 4,
+    "source_line": 1355
+  },
+  {
+    "opcode": 50,
+    "name": "AICmd_IfStatStageGreaterThan",
+    "reads": 4,
+    "source_line": 1369
+  },
+  {
+    "opcode": 51,
+    "name": "AICmd_IfStatStageEqualTo",
+    "reads": 4,
+    "source_line": 1383
+  },
+  {
+    "opcode": 52,
+    "name": "AICmd_IfStatStageNotEqualTo",
+    "reads": 4,
+    "source_line": 1397
+  },
+  {
+    "opcode": 53,
+    "name": "AICmd_IfCurrentMoveKOs",
+    "reads": 2,
+    "source_line": 1411
+  },
+  {
+    "opcode": 54,
+    "name": "AICmd_IfCurrentMoveDoesNotKO",
+    "reads": 2,
+    "source_line": 1463
+  },
+  {
+    "opcode": 55,
+    "name": "AICmd_IfMoveKnown",
+    "reads": 3,
+    "source_line": 1515
+  },
+  {
+    "opcode": 56,
+    "name": "AICmd_IfMoveNotKnown",
+    "reads": 3,
+    "source_line": 1570
+  },
+  {
+    "opcode": 57,
+    "name": "AICmd_IfMoveEffectKnown",
+    "reads": 3,
+    "source_line": 1625
+  },
+  {
+    "opcode": 58,
+    "name": "AICmd_IfMoveEffectNotKnown",
+    "reads": 3,
+    "source_line": 1666
+  },
+  {
+    "opcode": 59,
+    "name": "AICmd_IfBattlerUnderEffect",
+    "reads": 3,
+    "source_line": 1708
+  },
+  {
+    "opcode": 60,
+    "name": "AICmd_IfCurrentMoveMatchesEffect",
+    "reads": 2,
+    "source_line": 1735
+  },
+  {
+    "opcode": 61,
+    "name": "AICmd_Escape",
+    "reads": 0,
+    "source_line": 1759
+  },
+  {
+    "opcode": 62,
+    "name": "AICmd_Dummy3E",
+    "reads": 0,
+    "source_line": 1764
+  },
+  {
+    "opcode": 63,
+    "name": "AICmd_Dummy3F",
+    "reads": 0,
+    "source_line": 1768
+  },
+  {
+    "opcode": 64,
+    "name": "AICmd_LoadHeldItem",
+    "reads": 1,
+    "source_line": 1772
+  },
+  {
+    "opcode": 65,
+    "name": "AICmd_LoadHeldItemEffect",
+    "reads": 1,
+    "source_line": 1781
+  },
+  {
+    "opcode": 66,
+    "name": "AICmd_LoadGender",
+    "reads": 1,
+    "source_line": 2327
+  },
+  {
+    "opcode": 67,
+    "name": "AICmd_LoadIsFirstTurnInBattle",
+    "reads": 1,
+    "source_line": 2336
+  },
+  {
+    "opcode": 68,
+    "name": "AICmd_LoadStockpileCount",
+    "reads": 1,
+    "source_line": 2349
+  },
+  {
+    "opcode": 69,
+    "name": "AICmd_LoadBattleType",
+    "reads": 0,
+    "source_line": 2358
+  },
+  {
+    "opcode": 70,
+    "name": "AICmd_LoadRecycleItem",
+    "reads": 1,
+    "source_line": 2363
+  },
+  {
+    "opcode": 71,
+    "name": "AICmd_LoadTypeOfLoadedMove",
+    "reads": 0,
+    "source_line": 2372
+  },
+  {
+    "opcode": 72,
+    "name": "AICmd_LoadPowerOfLoadedMove",
+    "reads": 0,
+    "source_line": 2377
+  },
+  {
+    "opcode": 73,
+    "name": "AICmd_LoadEffectOfLoadedMove",
+    "reads": 0,
+    "source_line": 2382
+  },
+  {
+    "opcode": 74,
+    "name": "AICmd_LoadProtectSuccessChain",
+    "reads": 1,
+    "source_line": 2387
+  },
+  {
+    "opcode": 75,
+    "name": "AICmd_PushAndGoTo",
+    "reads": 1,
+    "source_line": 2402
+  },
+  {
+    "opcode": 76,
+    "name": "AICmd_GoTo",
+    "reads": 1,
+    "source_line": 2408
+  },
+  {
+    "opcode": 77,
+    "name": "AICmd_PopOrEnd",
+    "reads": 0,
+    "source_line": 2414
+  },
+  {
+    "opcode": 78,
+    "name": "AICmd_IfLevel",
+    "reads": 2,
+    "source_line": 2424
+  },
+  {
+    "opcode": 79,
+    "name": "AICmd_IfTargetIsTaunted",
+    "reads": 1,
+    "source_line": 2454
+  },
+  {
+    "opcode": 80,
+    "name": "AICmd_IfTargetIsNotTaunted",
+    "reads": 1,
+    "source_line": 2463
+  },
+  {
+    "opcode": 81,
+    "name": "AICmd_IfTargetIsPartner",
+    "reads": 1,
+    "source_line": 2472
+  },
+  {
+    "opcode": 82,
+    "name": "AICmd_FlagBattlerIsType",
+    "reads": 2,
+    "source_line": 897
+  },
+  {
+    "opcode": 83,
+    "name": "AICmd_CheckBattlerAbility",
+    "reads": 2,
+    "source_line": 1110
+  },
+  {
+    "opcode": 84,
+    "name": "AICmd_IfActivatedFlashFire",
+    "reads": 2,
+    "source_line": 2482
+  },
+  {
+    "opcode": 85,
+    "name": "AICmd_IfHeldItemEqualTo",
+    "reads": 3,
+    "source_line": 1794
+  },
+  {
+    "opcode": 86,
+    "name": "AICmd_IfFieldConditionActive",
+    "reads": 2,
+    "source_line": 1814
+  },
+  {
+    "opcode": 87,
+    "name": "AICmd_LoadSpikesLayers",
+    "reads": 2,
+    "source_line": 1825
+  },
+  {
+    "opcode": 88,
+    "name": "AICmd_IfAnyPartyMemberMissingHP",
+    "reads": 2,
+    "source_line": 1844
+  },
+  {
+    "opcode": 89,
+    "name": "AICmd_IfAnyPartyMemberMissingPP",
+    "reads": 2,
+    "source_line": 1862
+  },
+  {
+    "opcode": 90,
+    "name": "AICmd_LoadFlingPower",
+    "reads": 1,
+    "source_line": 1888
+  },
+  {
+    "opcode": 91,
+    "name": "AICmd_LoadCurrentMovePP",
+    "reads": 0,
+    "source_line": 1897
+  },
+  {
+    "opcode": 92,
+    "name": "AICmd_IfCanUseLastResort",
+    "reads": 2,
+    "source_line": 1902
+  },
+  {
+    "opcode": 93,
+    "name": "AICmd_LoadCurrentMoveCategory",
+    "reads": 0,
+    "source_line": 1915
+  },
+  {
+    "opcode": 94,
+    "name": "AICmd_LoadDefenderLastUsedMoveCategory",
+    "reads": 0,
+    "source_line": 1920
+  },
+  {
+    "opcode": 95,
+    "name": "AICmd_LoadBattlerSpeedOrderPosition",
+    "reads": 1,
+    "source_line": 1925
+  },
+  {
+    "opcode": 96,
+    "name": "AICmd_LoadBattlerTurnCount",
+    "reads": 1,
+    "source_line": 1963
+  },
+  {
+    "opcode": 97,
+    "name": "AICmd_IfPartyMemberDealsMoreDamage",
+    "reads": 2,
+    "source_line": 1972
+  },
+  {
+    "opcode": 98,
+    "name": "AICmd_IfHasSuperEffectiveMove",
+    "reads": 1,
+    "source_line": 2040
+  },
+  {
+    "opcode": 99,
+    "name": "AICmd_IfBattlerDealsMoreDamage",
+    "reads": 3,
+    "source_line": 2050
+  },
+  {
+    "opcode": 100,
+    "name": "AICmd_SumPositiveStatStages",
+    "reads": 1,
+    "source_line": 2105
+  },
+  {
+    "opcode": 101,
+    "name": "AICmd_DiffStatStages",
+    "reads": 2,
+    "source_line": 2120
+  },
+  {
+    "opcode": 102,
+    "name": "AICmd_IfBattlerHasHigherStat",
+    "reads": 3,
+    "source_line": 2130
+  },
+  {
+    "opcode": 103,
+    "name": "AICmd_IfBattlerHasLowerStat",
+    "reads": 3,
+    "source_line": 2146
+  },
+  {
+    "opcode": 104,
+    "name": "AICmd_IfBattlerHasEqualStat",
+    "reads": 3,
+    "source_line": 2162
+  },
+  {
+    "opcode": 105,
+    "name": "AICmd_CheckIfHighestDamageWithPartner",
+    "reads": 1,
+    "source_line": 2225
+  },
+  {
+    "opcode": 106,
+    "name": "AICmd_IfBattlerFainted",
+    "reads": 2,
+    "source_line": 2297
+  },
+  {
+    "opcode": 107,
+    "name": "AICmd_IfBattlerNotFainted",
+    "reads": 2,
+    "source_line": 2312
+  },
+  {
+    "opcode": 108,
+    "name": "AICmd_LoadAbility",
+    "reads": 1,
+    "source_line": 2494
+  }
+]

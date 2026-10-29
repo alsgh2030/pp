@@ -1,0 +1,44 @@
+test_ai_heal_item (test_mechanics.MechanicsTests.test_ai_heal_item) ... ok
+test_ai_immune_penalty (test_mechanics.MechanicsTests.test_ai_immune_penalty) ... ok
+test_base_damage (test_mechanics.MechanicsTests.test_base_damage) ... ok
+test_battle_rejects_freeze (test_mechanics.MechanicsTests.test_battle_rejects_freeze) ... ok
+test_burn_before_plus_two (test_mechanics.MechanicsTests.test_burn_before_plus_two) ... ok
+test_choice_lock (test_mechanics.MechanicsTests.test_choice_lock) ... ok
+test_crit_ignores_bad_stages_screen (test_mechanics.MechanicsTests.test_crit_ignores_bad_stages_screen) ... ok
+test_crit_probability (test_mechanics.MechanicsTests.test_crit_probability) ... ok
+test_critical_keeps_good_stages (test_mechanics.MechanicsTests.test_critical_keeps_good_stages) ... ok
+test_dual_type (test_mechanics.MechanicsTests.test_dual_type) ... ok
+test_ev_validation (test_mechanics.MechanicsTests.test_ev_validation) ... ok
+test_fixed_damage (test_mechanics.MechanicsTests.test_fixed_damage) ... ok
+test_full_battle_many_seeds (test_mechanics.MechanicsTests.test_full_battle_many_seeds) ... ok
+test_gen4_steel_resists (test_mechanics.MechanicsTests.test_gen4_steel_resists) ... ok
+test_illegal_action_atomic (test_mechanics.MechanicsTests.test_illegal_action_atomic) ... ok
+test_immunity (test_mechanics.MechanicsTests.test_immunity) ... ok
+test_lagging_tail (test_mechanics.MechanicsTests.test_lagging_tail) ... ok
+test_levitate_mold_breaker (test_mechanics.MechanicsTests.test_levitate_mold_breaker) ... ok
+test_nature_ev (test_mechanics.MechanicsTests.test_nature_ev) ... ok
+test_original_ai_extraction (test_mechanics.MechanicsTests.test_original_ai_extraction) ... ok
+test_original_move_values (test_mechanics.MechanicsTests.test_original_move_values) ... ok
+test_pp_fallback (test_mechanics.MechanicsTests.test_pp_fallback) ... ok
+test_priority_and_room (test_mechanics.MechanicsTests.test_priority_and_room) ... ok
+test_reflect (test_mechanics.MechanicsTests.test_reflect) ... ok
+test_rolls (test_mechanics.MechanicsTests.test_rolls) ... ok
+test_shedinja_hp (test_mechanics.MechanicsTests.test_shedinja_hp) ... ok
+test_simulation_deterministic (test_mechanics.MechanicsTests.test_simulation_deterministic) ... ok
+test_speed (test_mechanics.MechanicsTests.test_speed) ... ok
+test_speed_simple (test_mechanics.MechanicsTests.test_speed_simple) ... ok
+test_speed_weather (test_mechanics.MechanicsTests.test_speed_weather) ... ok
+test_stab (test_mechanics.MechanicsTests.test_stab) ... ok
+test_stage (test_mechanics.MechanicsTests.test_stage) ... ok
+test_stats (test_mechanics.MechanicsTests.test_stats) ... ok
+test_struggle_battle_recoil (test_mechanics.MechanicsTests.test_struggle_battle_recoil) ... ok
+test_struggle_typeless_and_no_technician (test_mechanics.MechanicsTests.test_struggle_typeless_and_no_technician) ... ok
+test_tailwind (test_mechanics.MechanicsTests.test_tailwind) ... ok
+test_tie_seed (test_mechanics.MechanicsTests.test_tie_seed) ... ok
+test_unknown_ability (test_mechanics.MechanicsTests.test_unknown_ability) ... ok
+test_unknown_move_effect_fails (test_mechanics.MechanicsTests.test_unknown_move_effect_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.429s
+
+OK

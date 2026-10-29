@@ -1,0 +1,46 @@
+{
+  "seed": 32,
+  "field": {
+    "weather": "none"
+  },
+  "teams": [
+    [
+      {
+        "species": "TYPHLOSION",
+        "moves": [
+          "FLAMETHROWER",
+          "QUICK_ATTACK",
+          "EARTHQUAKE",
+          "WILL_O_WISP"
+        ]
+      },
+      {
+        "species": "AMPHAROS",
+        "moves": [
+          "THUNDERBOLT",
+          "THUNDER_WAVE",
+          "TACKLE"
+        ]
+      }
+    ],
+    [
+      {
+        "species": "FERALIGATR",
+        "moves": [
+          "WATERFALL",
+          "CRUNCH",
+          "SWORDS_DANCE",
+          "AQUA_JET"
+        ]
+      },
+      {
+        "species": "MEGANIUM",
+        "moves": [
+          "ENERGY_BALL",
+          "TOXIC",
+          "TACKLE"
+        ]
+      }
+    ]
+  ]
+}

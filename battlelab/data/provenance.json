@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/ctrl-cheeb-del/pokeheartgold",
+  "commit": "01eeeb4b96087cb94c84de3045e9f2d4ef00061b",
+  "sha256": {
+    "src/battle/trainer_ai.c": "e607ce4441d53e4ab351829057677465943379dbd5b308523caf66a8f1b204fd",
+    "asm/trainer_ai_data.s": "27545ae40eb1c9285ea915bb85abce1e5dff8da1f38f1b870c82f8dee8fe4766",
+    "src/battle/battle_util.c": "108b7fa3fa8be1f5352f27136ab578e75ea44f7ad8920f053e16223492757f57",
+    "src/battle/battle_command.c": "a114933389c816dacd8e8e000a890fef03c0de7a0f313b109f9d0581a23e7899",
+    "src/battle/battle_controller_opponent.c": "7105bcb8c9e3745acd9df786c9cab57c7ad2ebf5422cd374765b0d610de08958",
+    "include/battle/trainer_ai.h": "6eb8c0535ed8ad36580c93098f4f65eb43fdf121d82a715e1748c910cc5f066b",
+    "include/constants/battle/trainer_ai.h": "e8b9ce19ff5f3999c30c602fd7661a954fab772729da61d3aebb5ff49c03aad4",
+    "include/move.h": "54f8598db8aaef0cb04e3d4152153ff7684cd41af5e0a2be4d04bc34db39804f",
+    "include/constants/moves.h": "72c58ed137cd5737e5c5fb8f43dfe70904f6f09618c75ab7b92b97062444b6d9"
+  },
+  "move_count": 468,
+  "species_count": 508
+}

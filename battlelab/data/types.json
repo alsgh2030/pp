@@ -1,0 +1,552 @@
+[
+  {
+    "attack": "NORMAL",
+    "defend": "ROCK",
+    "factor": 0.5
+  },
+  {
+    "attack": "NORMAL",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIRE",
+    "defend": "FIRE",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIRE",
+    "defend": "WATER",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIRE",
+    "defend": "GRASS",
+    "factor": 2
+  },
+  {
+    "attack": "FIRE",
+    "defend": "ICE",
+    "factor": 2
+  },
+  {
+    "attack": "FIRE",
+    "defend": "BUG",
+    "factor": 2
+  },
+  {
+    "attack": "FIRE",
+    "defend": "ROCK",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIRE",
+    "defend": "DRAGON",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIRE",
+    "defend": "STEEL",
+    "factor": 2
+  },
+  {
+    "attack": "WATER",
+    "defend": "FIRE",
+    "factor": 2
+  },
+  {
+    "attack": "WATER",
+    "defend": "WATER",
+    "factor": 0.5
+  },
+  {
+    "attack": "WATER",
+    "defend": "GRASS",
+    "factor": 0.5
+  },
+  {
+    "attack": "WATER",
+    "defend": "GROUND",
+    "factor": 2
+  },
+  {
+    "attack": "WATER",
+    "defend": "ROCK",
+    "factor": 2
+  },
+  {
+    "attack": "WATER",
+    "defend": "DRAGON",
+    "factor": 0.5
+  },
+  {
+    "attack": "ELECTRIC",
+    "defend": "WATER",
+    "factor": 2
+  },
+  {
+    "attack": "ELECTRIC",
+    "defend": "ELECTRIC",
+    "factor": 0.5
+  },
+  {
+    "attack": "ELECTRIC",
+    "defend": "GRASS",
+    "factor": 0.5
+  },
+  {
+    "attack": "ELECTRIC",
+    "defend": "GROUND",
+    "factor": 0
+  },
+  {
+    "attack": "ELECTRIC",
+    "defend": "FLYING",
+    "factor": 2
+  },
+  {
+    "attack": "ELECTRIC",
+    "defend": "DRAGON",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "FIRE",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "WATER",
+    "factor": 2
+  },
+  {
+    "attack": "GRASS",
+    "defend": "GRASS",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "POISON",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "GROUND",
+    "factor": 2
+  },
+  {
+    "attack": "GRASS",
+    "defend": "FLYING",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "BUG",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "ROCK",
+    "factor": 2
+  },
+  {
+    "attack": "GRASS",
+    "defend": "DRAGON",
+    "factor": 0.5
+  },
+  {
+    "attack": "GRASS",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "ICE",
+    "defend": "WATER",
+    "factor": 0.5
+  },
+  {
+    "attack": "ICE",
+    "defend": "GRASS",
+    "factor": 2
+  },
+  {
+    "attack": "ICE",
+    "defend": "ICE",
+    "factor": 0.5
+  },
+  {
+    "attack": "ICE",
+    "defend": "GROUND",
+    "factor": 2
+  },
+  {
+    "attack": "ICE",
+    "defend": "FLYING",
+    "factor": 2
+  },
+  {
+    "attack": "ICE",
+    "defend": "DRAGON",
+    "factor": 2
+  },
+  {
+    "attack": "ICE",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "ICE",
+    "defend": "FIRE",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "NORMAL",
+    "factor": 2
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "ICE",
+    "factor": 2
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "POISON",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "FLYING",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "PSYCHIC",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "BUG",
+    "factor": 0.5
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "ROCK",
+    "factor": 2
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "DARK",
+    "factor": 2
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "STEEL",
+    "factor": 2
+  },
+  {
+    "attack": "POISON",
+    "defend": "GRASS",
+    "factor": 2
+  },
+  {
+    "attack": "POISON",
+    "defend": "POISON",
+    "factor": 0.5
+  },
+  {
+    "attack": "POISON",
+    "defend": "GROUND",
+    "factor": 0.5
+  },
+  {
+    "attack": "POISON",
+    "defend": "ROCK",
+    "factor": 0.5
+  },
+  {
+    "attack": "POISON",
+    "defend": "GHOST",
+    "factor": 0.5
+  },
+  {
+    "attack": "POISON",
+    "defend": "STEEL",
+    "factor": 0
+  },
+  {
+    "attack": "GROUND",
+    "defend": "FIRE",
+    "factor": 2
+  },
+  {
+    "attack": "GROUND",
+    "defend": "ELECTRIC",
+    "factor": 2
+  },
+  {
+    "attack": "GROUND",
+    "defend": "GRASS",
+    "factor": 0.5
+  },
+  {
+    "attack": "GROUND",
+    "defend": "POISON",
+    "factor": 2
+  },
+  {
+    "attack": "GROUND",
+    "defend": "FLYING",
+    "factor": 0
+  },
+  {
+    "attack": "GROUND",
+    "defend": "BUG",
+    "factor": 0.5
+  },
+  {
+    "attack": "GROUND",
+    "defend": "ROCK",
+    "factor": 2
+  },
+  {
+    "attack": "GROUND",
+    "defend": "STEEL",
+    "factor": 2
+  },
+  {
+    "attack": "FLYING",
+    "defend": "ELECTRIC",
+    "factor": 0.5
+  },
+  {
+    "attack": "FLYING",
+    "defend": "GRASS",
+    "factor": 2
+  },
+  {
+    "attack": "FLYING",
+    "defend": "FIGHTING",
+    "factor": 2
+  },
+  {
+    "attack": "FLYING",
+    "defend": "BUG",
+    "factor": 2
+  },
+  {
+    "attack": "FLYING",
+    "defend": "ROCK",
+    "factor": 0.5
+  },
+  {
+    "attack": "FLYING",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "PSYCHIC",
+    "defend": "FIGHTING",
+    "factor": 2
+  },
+  {
+    "attack": "PSYCHIC",
+    "defend": "POISON",
+    "factor": 2
+  },
+  {
+    "attack": "PSYCHIC",
+    "defend": "PSYCHIC",
+    "factor": 0.5
+  },
+  {
+    "attack": "PSYCHIC",
+    "defend": "DARK",
+    "factor": 0
+  },
+  {
+    "attack": "PSYCHIC",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "BUG",
+    "defend": "FIRE",
+    "factor": 0.5
+  },
+  {
+    "attack": "BUG",
+    "defend": "GRASS",
+    "factor": 2
+  },
+  {
+    "attack": "BUG",
+    "defend": "FIGHTING",
+    "factor": 0.5
+  },
+  {
+    "attack": "BUG",
+    "defend": "POISON",
+    "factor": 0.5
+  },
+  {
+    "attack": "BUG",
+    "defend": "FLYING",
+    "factor": 0.5
+  },
+  {
+    "attack": "BUG",
+    "defend": "PSYCHIC",
+    "factor": 2
+  },
+  {
+    "attack": "BUG",
+    "defend": "GHOST",
+    "factor": 0.5
+  },
+  {
+    "attack": "BUG",
+    "defend": "DARK",
+    "factor": 2
+  },
+  {
+    "attack": "BUG",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "ROCK",
+    "defend": "FIRE",
+    "factor": 2
+  },
+  {
+    "attack": "ROCK",
+    "defend": "ICE",
+    "factor": 2
+  },
+  {
+    "attack": "ROCK",
+    "defend": "FIGHTING",
+    "factor": 0.5
+  },
+  {
+    "attack": "ROCK",
+    "defend": "GROUND",
+    "factor": 0.5
+  },
+  {
+    "attack": "ROCK",
+    "defend": "FLYING",
+    "factor": 2
+  },
+  {
+    "attack": "ROCK",
+    "defend": "BUG",
+    "factor": 2
+  },
+  {
+    "attack": "ROCK",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "GHOST",
+    "defend": "NORMAL",
+    "factor": 0
+  },
+  {
+    "attack": "GHOST",
+    "defend": "PSYCHIC",
+    "factor": 2
+  },
+  {
+    "attack": "GHOST",
+    "defend": "DARK",
+    "factor": 0.5
+  },
+  {
+    "attack": "GHOST",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "GHOST",
+    "defend": "GHOST",
+    "factor": 2
+  },
+  {
+    "attack": "DRAGON",
+    "defend": "DRAGON",
+    "factor": 2
+  },
+  {
+    "attack": "DRAGON",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "DARK",
+    "defend": "FIGHTING",
+    "factor": 0.5
+  },
+  {
+    "attack": "DARK",
+    "defend": "PSYCHIC",
+    "factor": 2
+  },
+  {
+    "attack": "DARK",
+    "defend": "GHOST",
+    "factor": 2
+  },
+  {
+    "attack": "DARK",
+    "defend": "DARK",
+    "factor": 0.5
+  },
+  {
+    "attack": "DARK",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "STEEL",
+    "defend": "FIRE",
+    "factor": 0.5
+  },
+  {
+    "attack": "STEEL",
+    "defend": "WATER",
+    "factor": 0.5
+  },
+  {
+    "attack": "STEEL",
+    "defend": "ELECTRIC",
+    "factor": 0.5
+  },
+  {
+    "attack": "STEEL",
+    "defend": "ICE",
+    "factor": 2
+  },
+  {
+    "attack": "STEEL",
+    "defend": "ROCK",
+    "factor": 2
+  },
+  {
+    "attack": "STEEL",
+    "defend": "STEEL",
+    "factor": 0.5
+  },
+  {
+    "attack": "NORMAL",
+    "defend": "GHOST",
+    "factor": 0
+  },
+  {
+    "attack": "FIGHTING",
+    "defend": "GHOST",
+    "factor": 0
+  }
+]
